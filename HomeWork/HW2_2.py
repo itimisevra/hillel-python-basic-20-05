@@ -1,16 +1,10 @@
-boys = 16
-girls = 18
-# boys - number of children in the 1st group
-# girls - number of children in the 2nd group
-# beds - ?
+a = int(input("group1:"))
+print(a)
+b = int(input("group2:"))
+print(b)
 
-boysbeds = 16//2
-print (boysbeds)
-# boysbeds = 8
-girlsbeds = 18//2
-print (girlsbeds)
-# girlsbeds = 9
+# x = a1 + b1 = ?
+x = (a//2 + a%2) + (b//2 + b%2)
+print(x)
 
-beds = boysbeds + girlsbeds
-print (beds)
-# beds = 17
+# тоже сделал сам, но не с первого раза.
