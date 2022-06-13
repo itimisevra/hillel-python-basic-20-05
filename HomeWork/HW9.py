@@ -18,10 +18,8 @@ elif mylist[0] == n:
     print("number on the right:", mylist[index + 1])
 elif mylist[-1] == n:
     print("number on the right:", mylist[index - 1])
-elif n in mylist:
-    print("numbers on the sides:", mylist[index - 1], "and", mylist[index + 1])
 else:
-    print("Not found")
+    print("numbers on the sides:", mylist[index - 1], "and", mylist[index + 1])
 
 
 
