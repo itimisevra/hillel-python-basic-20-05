@@ -1,3 +1,4 @@
+
 def mySqrt(self, x: int) -> int:
     left = 1
     right = x
@@ -10,4 +11,5 @@ def mySqrt(self, x: int) -> int:
         else:
             left = middle + 1
     return left - 1
+print(mySqrt(1,8))
 
